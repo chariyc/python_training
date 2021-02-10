@@ -1,0 +1,35 @@
+# 2.10.2021 - https://www.youtube.com/watch?v=_uQrJ0TkZlc&ab_channel=ProgrammingwithMosh
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+print("Mosh")
+print('o---- ' * 3)
+print(' |||| ' * 3)
+print('*' * 10)
+
+price = 10.1
+print('price = ' + str(price))
+
+name = 'Mosh'
+is_published = False
+
+patient_name = 'John Smith'
+age = 20
+is_new_patient = True
+
+print(Name + ' is ' + age + ' and is ')
+if is_new_pat
