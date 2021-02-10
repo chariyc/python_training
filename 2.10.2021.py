@@ -1,8 +1,8 @@
-# 2.10.2021 - https://www.youtube.com/watch?v=_uQrJ0TkZlc&ab_channel=ProgrammingwithMosh
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# # 2.10.2021 - https://www.youtube.com/watch?v=_uQrJ0TkZlc&ab_channel=ProgrammingwithMosh
+# # This is a sample Python script.
+#
+# # Press Shift+F10 to execute it or replace it with your code.
+# # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 #
 #
 # def print_hi(name):
@@ -47,19 +47,19 @@
 # birth_year = input('What year were you born? ')
 # age = 2021 - int(birth_year)
 # print('You are ' + str(age) + ' years old.')
-
+#
 # weight_in_pounds = input('How much do you weigh (in pounds)? ')
 # weight_in_kg = int(weight_in_pounds)/2.2
 # print('You weigh ' + str(weight_in_kg) + 'kg.')
-
+#
 # number = input('What is your number? ')
 # sig_dig = input('How many significant digits do you want? ')
 # print('Your number is rounded to: ' + str(round(float(number),int(sig_dig))))
-
+#
 # weight_in_pounds = input('How much do you weigh (in pounds)? ')
 # weight_in_kg = int(weight_in_pounds)/2.2
 # print('You weigh ' + str(round(float(weight_in_kg),2)) + 'kg.')
-
+#
 # from math import log10, floor
 # def round_to_1(x):
 #     return round(x, -int(floor(log10(abs(x)))))
@@ -69,15 +69,15 @@
 # print(round_to_1(13))
 # print(round_to_1(4))
 # print(round_to_1(19))
-
-## rounding to the largest significant digit
+#
+# # rounding to the largest significant digit
 # from math import log10, floor
 # def round_to_1(x):
 #     return round(x, -int(floor(log10(abs(x)))))
 # print(round_to_1(3.1415))
 # print(round_to_1(5351))
 # print(round_to_1(17))
-
+#
 # print("Python's course for Beginners")
 # print('Python course for "Beginners"')
 # print('''
@@ -88,7 +88,7 @@
 #
 # Sincerely,
 # Charles''')
-
+#
 # course = 'Python for Beginners'
 # print(course[1])
 # print(course[-1])
@@ -104,7 +104,7 @@
 #
 # name = 'Jennifer'
 # print(name[1:-1])
-
+#
 # first_name = 'John'
 # last_name = 'Smith'
 # message = first_name + ' ' + last_name + ' is a coder.'
@@ -112,7 +112,7 @@
 #
 # msg = f'{first_name} [{last_name}] is a coder.'  #formatted string
 # print(msg)
-
+#
 # course = 'Python for Beginners'
 # print(course.upper())
 # print(course)
@@ -131,7 +131,7 @@
 #
 # print(len(course))
 # print(course.title())
-
+#
 # print(10 * 3)
 # print(10 ** 3)
 #
@@ -150,13 +150,13 @@
 #
 # x = (2 + 3) * 10 - 3 ** 3
 # print(x)
-
+#
 # import math
 #
 # x = 2.9
 # print(math.ceil(2.9))
 # print(math.floor(2.9))
-
+#
 # is_hot = False
 # is_cold = False
 #
@@ -169,7 +169,7 @@
 # else:
 #     print("It's a beautiful day.")
 # print("Enjoy your day!")
-
+#
 # house_price = 1000000
 # credit_good = True
 #
@@ -180,7 +180,7 @@
 #
 # print("The downpayment is $" + str(down_payment))
 # print(f"Down payment: ${down_payment}")
-
+#
 # has_high_income = True
 # has_good_credit = True
 #
@@ -194,7 +194,7 @@
 #
 # if has_good_credit and not has_criminal_record:
 #     print("eligible for loan")
-
+#
 # name = input("What is your name? ")
 #
 # if len(name) < 3:
@@ -203,7 +203,7 @@
 #     print("Your name is so long!")
 # else:
 #     print(f"Hello {name}!")
-
+#
 # weight = float(input("What is your weight? "))
 # kg_or_lbs = input("(K)g or (L)bs? ")
 #
@@ -215,4 +215,5 @@
 #     lbs = True
 #     weight_in_kgs = round((weight / 2.2),2)
 #     print(f"Your weight is {weight_in_kgs} kilograms.")
+#
 
