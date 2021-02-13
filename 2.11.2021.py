@@ -145,14 +145,17 @@ letter_F = [5, 2, 5, 2, 2]
 #     for item in row:
 #         print(item)
 
-# numbers = [5, 2, 1, 7, 4]
+numbers = [5, 2, 1, 7, 4]
 # numbers.append(29)
 # print(numbers)
 # numbers.insert(0, 10)
 # print(numbers)
 # numbers.remove(5)
 # print(numbers)
-# numbers.pop()
+numbers.pop() # removes last?
+print(numbers)
+numbers.clear() # clears the list
+print(numbers)
 # print(numbers)
 # print(2 in numbers)
 # numbers.append(10)
@@ -167,14 +170,14 @@ letter_F = [5, 2, 5, 2, 2]
 # print(numbers)
 # print(numbers2)
 
-numbers = [5, 2, 1, 7, 4, 4]
-
-print(numbers)
-current_value = numbers[0]
-item_number = 0
-
-for number in numbers:
-    if current_value == number:
-        numbers.remove(item_number)
-        item_number += 1
-print(numbers)
+# numbers = [5, 2, 1, 7, 4, 4]
+#
+# print(numbers)
+# current_value = numbers[0]
+# item_number = 0
+#
+# for number in numbers:
+#     if current_value == number:
+#         numbers.remove(item_number)
+#         item_number += 1
+# print(numbers)
