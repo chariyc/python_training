@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
@@ -47,13 +48,21 @@ def func():
 
     This is a sample docstring
     """
+    print("Yowza")
     pass
 
 
 def func1():
     """Oh yeah."""
+    print("oh yeah")
 
 
 def func2():
     """Youch."""
+    print("youch")
     pass
+
+func()
+func2()
+func1()
+
